@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Pan Pizza';
+    src: url('./fonts/panpizza.ttf');
+}
+
+.banner{
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.banner-texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Pan Pizza';
+    font-size: 3rem;
+    letter-spacing: 6px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5vh;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar{
+    background-color: rgb(130, 181, 130);
+}
+
+.imagen-pizza{
+    border-radius: 6px;
+    border: 2px solid rgb(172, 178, 172); 
+    height: 6vh;
+    object-fit: contain;
+}
+.img-descripcion{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 2px solid rgb(172, 178, 172);
+    margin-top: 5vh;
+}
+
+.detail{
+    margin: 3vw;
+    border: 2px solid rgb(172, 178, 172);
+    border-radius: 6px;
+}
+
+.title{
+    font-family: 'Pan Pizza';
+    letter-spacing: 4px;
+    text-shadow: 4px 4px 2px rgb(172, 178, 172);
+}
+
+@media screen and (max-width: 768px) {
+    .lista-carrito{
+        flex-direction: column;
+    }
+
+    .detail{
+        display: flex !important;
+        flex-direction: column !important;
+        }
+
+
+}
+    
